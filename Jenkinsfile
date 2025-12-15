@@ -6,8 +6,8 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_USER = 'slimane69'
-        IMAGE_NAME = 'devops-mohamed-slimane'
+        DOCKERHUB_USER = 'hyperdarkmoon'
+        IMAGE_NAME = 'devops-chedly-badri'
         K8S_NAMESPACE = 'devops'
         K8S_MANIFEST_DIR = 'k8s'
         K8S_DEPLOYMENT_NAME = 'student-management-app'
@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/MedSlimane/devops-mohamed-slimane-4sim1'
+                git branch: 'master', url: 'https://github.com/HyperDarkmoon/student_management_chedly_badri_4sim1'
             }
         }
 
