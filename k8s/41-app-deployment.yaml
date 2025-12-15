@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: student-management-app
-          image: slimane69/devops-mohamed-slimane:latest
+          image: hyperdarkmoon/devops-chedly-badri:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8089
