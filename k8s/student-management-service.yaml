@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: student-management-application
+  name: student-management-app
   namespace: devops
 spec:
   selector:
-    app: student-management-application
+    app: student-management-app
   ports:
     - protocol: TCP
       port: 8089
